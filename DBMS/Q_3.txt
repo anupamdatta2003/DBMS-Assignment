@@ -1,0 +1,11 @@
+DBMS => DBMS stands for Database Management System. It is a software that allows users to define, create,
+        maintain, and control access to databases.
+
+
+The need for DBMS => 1> Data independence
+                     2> Data consistency and integrity
+                     3> Data security
+                     4> Data sharing and collaboration
+                     5> Data redundancy and duplication
+                     6> Data retrieval and query optimization
+                     7> Data backup and recovery

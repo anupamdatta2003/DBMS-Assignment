@@ -1,0 +1,23 @@
+File-based storage systems, which were used before the advent of Database Management Systems (DBMS), presented several challenges that DBMS addressed and improved upon. Here are five key challenges:
+
+1. Data Redundancy and Inconsistency:
+   -> Challenge: In file-based systems, data redundancy was common since the same data could be stored in multiple files or even within the same file multiple times. This redundancy led to inconsistency issues, where updating data in one file didn't update it in others, leading to discrepancies.
+   -> DBMS Solution: DBMS introduced the concept of a centralized repository for data storage. Data redundancy was minimized through normalization techniques, and data consistency was ensured through ACID (Atomicity, Consistency, Isolation, Durability) properties, transactions, and relational constraints.
+
+2. Data Isolation:
+   -> Challenge: In file-based systems, data was stored in separate files, often with no relation or integration between them. This isolation made it difficult to retrieve related data efficiently and to maintain referential integrity.
+   -> DBMS Solution: DBMS introduced the relational model, which facilitated relationships between data entities through keys. This allowed for efficient querying using SQL, ensuring that related data could be easily retrieved and maintained.
+
+3. Data Integrity:
+   -> Challenge: In file-based systems, ensuring data integrity (accuracy, consistency, and reliability of data over its entire lifecycle) was a significant challenge. There were no mechanisms to enforce constraints or rules on data, leading to data integrity issues.
+   -> DBMS Solution: DBMS provided mechanisms for enforcing data integrity through constraints such as primary keys, foreign keys, unique constraints, and check constraints. These constraints ensured that data remained accurate and consistent throughout its lifecycle.
+
+4. Concurrency Control:
+   -> Challenge: In file-based systems, when multiple users or processes tried to access and modify the same data simultaneously, concurrency control became a challenge. Without proper mechanisms, this could lead to data corruption, lost updates, or inconsistent results.
+   -> DBMS Solution: DBMS implemented concurrency control mechanisms such as locking, multiversion concurrency control, and transaction isolation levels to manage simultaneous access to data. These mechanisms ensured that transactions could execute concurrently without interfering with each other, maintaining data consistency.
+
+5. Data Security:
+   -> Challenge: File-based systems often lacked robust security mechanisms to control access to data. Without proper access controls, unauthorized users could easily access or modify sensitive data.
+   -> DBMS Solution: DBMS introduced authentication and authorization mechanisms to control access to data. User roles and privileges were defined to restrict access to sensitive data, ensuring that only authorized users could perform specific operations on the database.
+
+Overall, DBMS addressed these challenges by providing a structured and efficient way to store, retrieve, and manage data, leading to improved data consistency, integrity, security, and concurrency control.

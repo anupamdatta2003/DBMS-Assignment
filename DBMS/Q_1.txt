@@ -1,0 +1,13 @@
+Database => A database is a structured collection of data that is organized and sorted in a way that 
+            allows for efficient retrieval, updating and management of information.
+
+Example for the need of a database => Imagine one is running a small online bookstore. He needs to keep
+                                      track of various aspects of his bussiness; like: customer information,
+                                      inventory, orders, sales etc. Without a database he cannot manage
+                                      data as his bussiness growns.
+
+Needs of a database => 1> Data organization
+                       2> Data integrity
+                       3> Efficient retrieval
+                       4> Scalability
+                       5> Security

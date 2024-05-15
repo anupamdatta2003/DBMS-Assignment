@@ -1,0 +1,13 @@
+File base storage system => File-based storage systems have been the backbone of data storage for decades,
+                            providing a simple and familiar way to organize and access data on computers.
+                            In this system, data is stored in individual files, each with its own name and
+                            location within a directory structure. Uers interact with these files through
+                            applications that read, write and manipulate data as needed.
+
+
+Major challenges of a File-based storage system => 1> Data redundancy
+                                                   2> Limited data sharing
+                                                   3> Limited Scalability
+                                                   4> Security concerns
+                                                   5> Lack of data integrity
+
